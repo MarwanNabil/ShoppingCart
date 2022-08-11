@@ -1,0 +1,68 @@
+.item{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.item .control{
+    display: flex;
+    width: 20%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item .control span{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.item button{
+    height: 70%;
+}
+
+.item button:hover{
+    opacity: 80%;
+}
+
+.item .btn-left{
+    width: 50%;
+    color: white;
+    border-width: 0;
+    background-color: rgb(55, 0, 255);
+    border-bottom-left-radius: 100px;
+}
+
+.item .btn-right{
+    width: 50%;
+    color: white;
+    border-width: 0;
+    background-color: rgb(57, 204, 20);
+    border-bottom-right-radius: 100px;
+}
+
+.counts{
+    display: inline;
+    font-size: large;
+    background-color: #ffc400;
+    color: white;
+    font-size: small;
+    border-radius: 30px;
+    padding: 5px 10px;
+    box-shadow: inset 0 0 15px rgb(255, 255, 255);
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+.layout{
+    width: 75%;
+}
+
+.item .layout h1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,18 @@
+.btn{
+    padding: 15px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: black;
+    color: white;
+    font-weight: 1000;
+}
+
+.yes{
+    background-color: #4e268d;
+}
+
+.money{
+    font-weight: 1000;
+    font-size: 31px;
+    color: green;
+}
